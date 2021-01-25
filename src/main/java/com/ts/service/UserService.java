@@ -1,4 +1,4 @@
-package com.ts.Service;
+package com.ts.service;
 
 import java.util.Map;
 

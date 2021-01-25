@@ -9,8 +9,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.ts.Service.UserServiceImpl;
 import com.ts.entities.UserEntity;
+import com.ts.service.UserServiceImpl;
 
 @RestController
 

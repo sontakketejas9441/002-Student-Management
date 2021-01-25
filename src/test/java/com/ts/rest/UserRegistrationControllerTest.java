@@ -17,9 +17,9 @@ import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilde
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ts.Service.UserServiceImpl;
 import com.ts.binding.UserSave;
 import com.ts.entities.UserEntity;
+import com.ts.service.UserServiceImpl;
 
 @WebMvcTest(value = UserRegistrationController.class)
 public class UserRegistrationControllerTest {
